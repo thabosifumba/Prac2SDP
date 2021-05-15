@@ -1,8 +1,8 @@
 language: csharp
 solution: Oware.sln
-dotnet: 2.1.502
 os:
  - linux
 dist: focal
+dotnet: 5.0
 script:
  - dotnet test
