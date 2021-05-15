@@ -3,7 +3,9 @@ solution: Oware.sln
 os:
  - linux
  - osx
-dist: focal
-dotnet: 5.0
 script:
  - dotnet test
+jobs:
+  include:
+    - dotnet: 5.0
+    - dotnet: 2.1.502
