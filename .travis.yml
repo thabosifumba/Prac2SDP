@@ -1,5 +1,6 @@
 language: csharp
 solution: Oware.sln
+dotnet: 2.1.502
 os:
  - linux
 dist: focal
